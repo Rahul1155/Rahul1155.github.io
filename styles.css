@@ -12,15 +12,16 @@ body{
     background-color:grey;
     display: flex;
     flex-direction: row;
-    height: 75px;
+    height: 10vh;
     align-items: center;
-    position: fixed;
     width: 100%;
+    position:fixed;
   }
   .navbar li{
     list-style:none;
     float:left;
-    padding: 0 20px 0 20px;
+    padding: 0 1em 0 1em;
+    
   }
   
   .navbar li a{
@@ -29,13 +30,14 @@ body{
   }
   .navbar li a:hover{
     color:white;
+    
   }
   
   .navbar input{
     float: right;
     border-radius:15px;
     border-style:none;
-    width:200px;
+    width:15em;
     margin: 0 20px 0 500px;
     padding:0 0 0 10px;
     
@@ -55,11 +57,12 @@ body{
   
 }
 #name-container h1{
-  font-size: 70px;
+  font-size: 5em;
   margin:0 0 5px 0;
+ 
 }
 #name-container p{
-  font-size: 25px;
+  font-size: 2em;
   margin:0;
 }
 
@@ -70,6 +73,7 @@ body{
   height:100vh;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .contact a{
   text-decoration: none;
